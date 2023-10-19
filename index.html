@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Página Web Front End</title>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="img/logo.png" class="logo" alt="logo_ducati">
+        <img src="img/hamb.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#login">Login</a>
+            <a href="#mejoras">Mejoras</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#mantenimientos">Mantenimientos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Panigale V4 - V4S</h1>
+            <p class="copy">THE EVOLUTION OF SPEED</p>
+        </div>
+    </header>
+    <main>
+        <section class="ingreso" id="login">
+            <div class="ingreso_info">
+                <h1>Panigale V4 - V4S</h1><br>
+                <button type="button" class="btn_register" data-toggle="modal" data-target="#register_modal">Registrate</button>
+                <button class="btn_login" data-toggle="modal" data-target="#login_modal">Ingresa</button>
+            </div>
+        </section> 
+        <section class="contenedor" id="mejoras">
+            <h2 class="subtitulo">Mejoras Importantes</h2>
+            <div class="contenedor-servicio">
+                <img src="img/mejoras.png" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>AERODINÁMICA</h3>
+                        <p>Aún más hermosa con alerones de diseño de doble perfil nuevas, 
+                            más compactas y eficientes, tomas de extración rediseñadas 
+                            para mejorar el sistema de refrigeración.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>MOTOR</h3>
+                        <p>Potencia aumentada a 215,5 CV a 13.000 rpm y nueva caja de 
+                            cambios SBK con marchas I, II VI alargadas. Nueva estrategia 
+                            de gestión del par que garantiza al piloto la posibilidad 
+                            de tener siempre el empuje óptimo al abrir el acelerador.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>CHASIS</h3>
+                        <p>El povote del basculante monobrazo de aluminio se coloca 
+                            4 mm más alto. Equipada con la nueva horquilla presurizada 
+                            con control electrónico Öhlins NPX 25/30 que utiliza un 
+                            sistema de amortiguación de cartucho presurizado con un 
+                            recorrido de 125 mm.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>ERGONOMÍA</h3>
+                        <p>Asiento más plano y nueva forma del tanque e la parte trasera 
+                            para permitir que el piloto se ancle mejor al frenar y le 
+                            permita conducir más rápido y durante más tiempo.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">5</span>CONTROLES ELECTRÓNICOS</h3>
+                        <p>Nuevo Engine Brake Control EVO 2 que da un control del freno
+                            más equilibrado en cualquier fase de la conducción: 
+                            reduce el bloqueo de la rueda trasera el los frenados más 
+                            exigentes, mejorando la estabilidad y precisión en las curvas.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">6</span>EQUIPO TFT</h3>
+                        <p>Indicador de cambio de marchas estilo SBK. Nuevos gráficos 
+                            diseñados para la pista que ayudan al piloto a ajustar los 
+                            controles electrónicos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" alt="" class="img-galeria">
+                    <img src="img/dos.jpg" alt="" class="img-galeria">
+                    <img src="img/tres.jpg" alt="" class="img-galeria">
+                    <img src="img/cuatro.jpg" alt="" class="img-galeria">
+                    <img src="img/cinco.jpg" alt="" class="img-galeria">
+                    <img src="img/seis.jpg" alt="" class="img-galeria">
+                    <iframe class="vid-galeria"  src="https://www.youtube.com/embed/WlvHjgsZ7Kk?si=mUmK192D-7Gz1afF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe class="vid-galeria" src="https://www.youtube.com/embed/COrZude7To4?si=CRFQUEKtwGMNbCBN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="img/bike.jpg" alt="" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="mantenimientos">
+            <h2 class="subtitulo">Mantenimientos Ducati</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/s1.png" alt="">
+                    <h3 class="n-expert">Cambio de aceite y filtro</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/s2.png" alt="">
+                    <h3 class="n-expert">Mantenimiento del sistema de frenos</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/s3.png" alt="">
+                    <h3 class="n-expert">Revisión de los neumáticos</h3>
+                </div>
+            </section>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/s4.png" alt="">
+                    <h3 class="n-expert">Inspección del sistema de suspensión</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/s5.png" alt="">
+                    <h3 class="n-expert">Cambio de bujías</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/s6.png" alt="">
+                    <h3 class="n-expert">Revisión del sistema eléctrico</h3>
+                </div>
+            </section>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/s7.png" alt="">
+                    <h3 class="n-expert">Limpieza y encerado</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">DUCATI | <em>Colombia</em></h2>
+                <p>Copyright © 2023 Ducati Motor Holding S.p.A - 
+                    A Sole Shareholder Company - A Company subject to 
+                    the Management and Coordination activities of AUDI AG. <br>
+                    All rights reserved. VAT 05113870967</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/ducaticolombiaoficial" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com/DucatiColombia" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/panigalev4s/?hl=es" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>

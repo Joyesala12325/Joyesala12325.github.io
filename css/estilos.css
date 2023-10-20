@@ -103,9 +103,9 @@ header{
 
 
 .ingreso{
-    width: 70%;
-    height: auto;
-    margin: 0 15%;
+    width: auto;
+    height: 100%;
+    margin: 0 5%;
     z-index: 0;
     background: url(../img/ingeso.jpg) no-repeat;
     background-size: cover;
@@ -115,9 +115,9 @@ header{
 }
 
 .ingreso_info{
-    padding: 100px;
-    width: 50%;
-    height: 50%;
+    padding: 50px;
+    width: 60%;
+    height: 100%;
     display: block;
     flex-wrap: wrap;
 }
@@ -129,8 +129,8 @@ header{
 }
 
 .btn_register, .btn_login{
-    width: 160px;
-    height: 55px;
+    width: 130px;
+    height: 45px;
     font-size: 18px;
     border-radius: 2px;
     font-weight: 500;
@@ -312,13 +312,13 @@ footer{
 }
 
 .contact-us{
-    width: 40%;
+    width: 50%;
     color: #fff;
 }
 
 .brand{
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     color: #ff0000;
 }
 
@@ -376,6 +376,19 @@ footer{
         font-size: 35px;
         margin-top: 10px;
     }
+
+    .btn_register, .btn_login{
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        border-radius: 2px;
+        font-weight: 500;
+        border-style: none;
+        margin: 10px 0px 10px 15px;
+        align-items: center;
+        transition: all 1s;
+    } 
+
     .contenedor-servicio img{
         width: 80%;
         margin-bottom: 40px;
@@ -448,6 +461,18 @@ footer{
         margin-top: 10px;
     }
 
+    .btn_register, .btn_login{
+        width: 80px;
+        height: 25px;
+        font-size: 10px;
+        border-radius: 2px;
+        font-weight: 500;
+        border-style: none;
+        margin: 10px 0px 10px 15px;
+        align-items: center;
+        transition: all 1s;
+    }
+
     .subtitulo{
         font-size: 30px;
     }
@@ -458,6 +483,11 @@ footer{
 
     .img-galeria{
         width: 95%;
+    }
+
+    .brand{
+        font-weight: 500;
+        font-size: 30px;
     }
 
     .social-media{

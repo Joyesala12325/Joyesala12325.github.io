@@ -153,7 +153,19 @@ header{
     background-color: #ff0000;
 }
 
-/*Nuestro servicio*/
+/*Mejoras Importantes*/
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#contenedor > div {
+    width: 50%;
+    padding: 0px 30px;
+}
 
 .subtitulo{
     text-align: center;
@@ -171,11 +183,11 @@ header{
 }
 
 .contenedor-servicio img{
-    width: 40%;
+    width: 70%;
 }
 
 .checklist-servicio{
-    width: 45%;
+    width: 100%;
 }
 
 .service{
@@ -199,6 +211,8 @@ header{
     line-height: 30px;
     margin-right: 5px;
 }
+
+/*Galería*/
 
 .gallery{
     background: #f2f2f2;
@@ -242,7 +256,7 @@ header{
     align-items: center;
     transform: translate(100%);
     transition: transform .2s ease-in-out;
-
+    z-index: 99;
 }
 
 .show{
@@ -268,6 +282,8 @@ header{
     width: 40px;
     cursor: pointer;
 }
+
+/*Mantenimientos Ducati*/
 
 .experts{
     display: flex;
@@ -362,6 +378,8 @@ footer{
     margin-bottom: 60px;
 }
 
+/*Responsive 800px*/
+
 @media screen and (max-width:800px) {
 
     .menu-navegacion{
@@ -388,11 +406,17 @@ footer{
         align-items: center;
         transition: all 1s;
     } 
-
+    
     .contenedor-servicio img{
         width: 80%;
         margin-bottom: 40px;
     }
+
+    #contenedor > div {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
 
     .checklist-servicio{
         width: 80%;
@@ -440,6 +464,8 @@ footer{
 
 }
 
+/*Responsive 500px*/
+
 @media screen and (max-width:500px){
     
     .menu-navegacion{
@@ -471,6 +497,12 @@ footer{
         margin: 10px 0px 10px 15px;
         align-items: center;
         transition: all 1s;
+    }
+
+    #contenedor > div {
+        width: 100%;
+        padding: 0px 30px;
+        text-align: center;
     }
 
     .subtitulo{
